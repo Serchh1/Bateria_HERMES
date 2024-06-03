@@ -7,8 +7,8 @@
 class BatteryMonitor
 {
 public:
-    BatteryMonitor(int pinBattery); //Pin de salida con el valor sensado A0 Constructor
-    float valorEntrada(); //Pin de entrada de la bateria return valor %
+    BatteryMonitor(int pinBattery); // Constructor
+    float valorEntrada(); // Devuelve el valor en porcentaje
 private:
     int m_pinBattery;
 };
