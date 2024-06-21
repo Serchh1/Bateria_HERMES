@@ -1,7 +1,7 @@
 #pragma once
 #include <Arduino.h>
 
-#define MAX_VALUE 4.17f
+#define MAX_VALUE 4.4f
 #define MIN_VALUE 3.20f
 
 class BatteryMonitor
